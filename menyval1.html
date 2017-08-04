@@ -1,0 +1,234 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Angular -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/2.2.0/angularfire.min.js"></script>
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Bas-Bloggen - Bas Tabs</title>
+
+ <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body ng-app="app">
+     <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container meny-container">
+                <a class="navbar-brand" href="index.html">Bas-Bloggen</a>
+                <ul class="nav navbar-nav">
+                    <li><a class="vanliga" href="menyval1.html">Bas Tabs</a></li>
+                    <li><a class="vanliga" href="menyval2.html">Artister</a></li>
+                    <li><a class="vanliga" href="menyval3.html">Om mig</a></li>
+                </ul>
+            </div>
+        </nav>
+<img src="bilder/brown.jpeg" id="bildernaBorde" width="100%">
+<h1>Tabs</h1>
+<div class="container">
+    <div class="col-sm-3" id="ArtisterVadGorJag">
+        <h2>Alla tabs</h2>
+        <p class="artikel">Superstition av Stevie Wonder
+        <br>Under the Bridge av Red Hot Chili Peppers</p>
+    </div>
+    <div class="col-sm-8 content" id="VadGorJag">
+        <p class="ATitel">Superstition av Stevie Wonder</p>
+        <p class="artikel">En gammal, rolig klassiker! Detta är en linje som alla bassister borde kunna!
+        Hursomhelst, såhär spelar ni den:</p>
+        <pre >Kom in efter (jag tror) 8 bars på trummor.
+
+Intro
+
+G|----------------------------------------|
+D|----------5------------------5----------|  x4
+A|----7-5-7---5---5h7------5-7---5---5h7--|
+E|-0------------7------5-7---------7------|
+
+
+Vers del 1
+
+G|----------------------------|
+D|----------------------------|  x4
+A|---------------------3---4--|
+E|-0--0--0--0--0--0--2---3----|
+
+
+Vers del 2
+
+G|----------------------------------------|
+D|------------------------------7/9--5----|
+A|----7-5h7-------5---5h7-7-5h7--------7--|  x4
+E|-0--------5h6h7---7---------------------|
+
+
+Bridge
+
+G|--------------------------------|
+D|--------------------------------|
+A|--------------------------------|
+E|-7---7--8---8--7---7--6---6--5--|
+
+        </pre>
+        <p class="artikel">
+        h= Hammer on
+        <br>/=Slide up
+
+        <br>Improvisera gärna inte medan sångaren sjunger, eller i introt. Men efteråt går bra! Om du vill få tonen precis rätt så kan man tona ner
+         en halv ton, så ex. istället för E så kan man spela Eb, men personligen gör jag inte det. 
+
+        <br>Hoppas att ni gillar denna! Orginalet är från 
+        <a href="https://tabs.ultimate-guitar.com/s/stevie_wonder/superstition_btab.htm">Ultimate Guitar</a>
+        </p>
+        </div>
+<div class="col-sm-12" id="VadGorJag2">
+<p class="ATitel">Under the Bridge av Red Hot Chili Peppers</p>
+<p class="artikel"> En av de första grejer jag lärde mig på bas. Superkul att spela och relativt lätt</p>
+<pre >
+Början (ingen bas till mellan vers 1 och 2)
+G|---------------------------------------------------------------------------|
+D|---------------------------------------------------------------------------|
+A|---------------------------------------------------------------------------|
+E|-0---0---0---0---0 låt ringa-----------------------------------------------|
+
+
+Chorus (Vad det nu än är på Svenska)
+
+G|---------------------------------------------------------------------------|
+D|--11---------9--------------9----------------------------------------------|
+A|--9----7--7------7---------------7----9---9---9---9------------------------|
+E|--------------------9---7--------------------------------------------------|
+
+G|---------------------------------------------------------------------------|
+D|--11---------9--------------9----------------------------------------------|
+A|--9----7--7------7---------------7----9---9h11p9h11p9----------------------|
+E|--------------------9---7--------------------------------------------------|
+
+G|---------------------------------------------------------------------------|
+D|--11---------9---------------9---------------------------------------------|
+A|--9----7--7------7---------------7----9---9--------------------------------
+E|--------------------9----7-------------------------------------------------
+
+
+Vers
+
+G|---------------------------------------------------------------------------|
+D|---------------------------------------------------------------------------|
+A|---------2--------0---------------2-------4-----0-----0--------------------| x3
+E|--0------------4------------0----------------------------------------------|
+
+
+
+
+
+Slutet
+
+G|-----9---------------------------------7--------------------5--------------|
+D|--7-----7----10----7----5----7----5--------5----3-----5h7-------7p5--------|
+A|---------------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+
+G|----9-------9-----------7-----------------------5--------------------------|
+D|---------7-----7----5--------5-----3-----5h7--------7p5h7------------------|
+A|-0----0--------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+
+G|-----9---------------------------------7--------------------5--------------|
+D|--7-----7----10----7----5----7----5--------5----3-----5h7-------7p5--------|
+A|---------------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+
+
+Bridge
+
+G|--------------------------------------------------------------------------|
+D|--------------------------------------------------------------------------|
+A|--------------------------------------------------------------------------|
+E|--1-1-1-1-1-1-1-1-0-0-0-0-3-3-3-3-----------------------------------------|
+
+G|-----9---------------------------------7--------------------5--------------|
+D|--7-----7----10----7----5----7----5--------5----3-----5h7-------7p5--------|
+A|---------------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+                                                                                x4
+G|----9-------9-----------7-----------------------5--------------------------|
+D|---------7-----7----5--------5-----3-----5h7-------7p5h7-------------------|
+A|-0----0--------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+
+Slutet av sång och trummor
+
+G|-----9---------------------------------7--------------------5--------------|
+D|--7-----7----10----7----5----7----5--------5----3-----5h7-------7p5--------|
+A|---------------------------------------------------------------------------|
+E|---------------------------------------------------------------------------|
+                                                                                x4
+G|----9-------9-----------7-----------------------5h7p5---------------------|
+D|---------7-----7----5--------5-----3-----5h7------------7p5---------------|
+A|-0----0-------------------------------------------------------------------|
+E---------------------------------------------------------------------------|
+
+
+    </pre>
+    <p class="artikel">
+    h= Hammer-on
+    <br>/=Slide up
+    <br>p=Pull-off
+
+    <br>Det går att göra denna lättare, och känn dig fri att improvisera på verserna!
+
+    <br> Som alltid hittade jag denna tab från
+    <a href="https://tabs.ultimate-guitar.com/r/red_hot_chili_peppers/under_the_bridge_ver3_btab.htm">Ultimate Guitar</a>
+    </p>
+</div>
+</div>
+
+<div id="KommentarerBak">
+<div class="col-sm-10">
+<div ng-controller="KommentarCtrl">
+<p class="ATitel"> Kommentarer </p>
+<div ng-repeat="kommentar in kommentarer">
+    <p><b>{{ kommentar.skribent }}</b> {{ kommentar.text }}</p>
+</div>
+<form ng-submit="addComment()">
+    <div class="form-group">
+        <input placeholder="Ditt namn" type="text" class="form-control" ng-model="kommentar.skribent">
+    </div>
+    <div class="form-group">
+        <input placeholder="Din kommentar" type="text" class="form-control" ng-model="kommentar.text">
+    </div>
+    <button type="submit" class="btn btn-primary kommenterafarg">Kommentera</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

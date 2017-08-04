@@ -1,0 +1,82 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Bas-Bloggen - Artister</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+     <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Bas-Bloggen</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Bas Tabs</a></li>
+                    <li><a href="menyval2.html">Artister</a></li>
+                    <li><a href="menyval3.html">Om mig</a></li>
+                </ul>
+            </div>
+        </nav>
+<img src="bilder/black.jpg" id="bild1" width="100%">
+<h1>Artister</h1>
+<div id="ArtisterSenaste">
+    <h2>Senaste Artist-inläggen<h2>
+    <p class="artikel">Esperanza Spalding</p>
+    <p class="artikel">Marcus Miller</p>
+</div>
+<div id="ESEtt" class="content">
+    <p class="ATitel"> Esperanza Spalding </p>
+    <p class="artikel"> <img id="ESBild" src="bilder/esperanza spalding.jpg"> Esperanza Spalding är, enligt mig, en av de bästa bassisterna någonsin. Med en enorm karisma och en fantastisk röst, strålar hon  på scenen. Hon är extremt duktig på bas och jazz är hennes "grej".</p>
+    <p class="artikel" >Ezperanza är 32 år gammal ( född den 18 oktober 1984) och har collabat med 7 artister samt gjort 5 solo album.
+        Med allt detta har hon vunnit fyra Gammy Awards, uppträtt på Nobel Pris ceremonin och uppträtt på Oscars ceremonin samt Vita Huset.   Hon har också varit på scen med Prince och Herbie Hancock. Mina två favoritlåtar av henne är "Judas" och "I know you know". <a href="http://www.esperanzaspalding.com/shows">Detta är en link till hennes framtida konserter.</a>
+        </p>
+            <p class="artikel" >
+        Hon spelar både kontra-bas och el bas. Dessutom sägs hon ha skänkt en stor del av sina pengar till <a href="http://www.freetheslaves.net/">Free the Slaves</a> och massor av miljö-organisationer. </p>
+
+            <p class="artikel">Esperanza började spela bas på klubbar som en tonåring, och blev snabbt populär. Egentligen ville hon spela cello, men hittade mer intresse i bas.
+
+        Hon insåg snabbt att basen var mycket bättre än skolan, så hon slutade plugga som 16-åring. Hon tyckte att skolan var för lätt och trist.
+        Senare skrev även New Yourk times att hon hade en "great feel" och hon blev väldigt omtyckt.
+        </p>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/g-rWNAQx1ZE" frameborder="0" allowfullscreen></iframe>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/ULNdMhPLmlU" frameborder="0" allowfullscreen></iframe>
+</div>
+<div id="MM" class="content">
+    <p class="ATitel"> Marcus Miller </p>
+    <p class="artikel"> <img id="MMBild" src="bilder/mm.jpg">Marcus Miller är nog en av de coolaste och funkigaste bassister i historien enligt mig, precis som Esperanza, har han en extremt bra "feel" och det känns i hans musik. </p>
+    <p class="artikel" >Marcus Miller föddes den 14de Juni 1959 i New Yourk i en väldigt musikalisk familj. Han började med att spela clarinet men blev sedan mer interesserad av bas. Han hjälpte sedan musiker, och spelade totalt på 500 album. Efter 15 år så började hans "riktiga karriär". Min favolåt av honom är Detroit.
+        </p>
+            <p class="artikel" >
+        Han har vunnit the Gammy Awards och spelat på UNESCO. </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ahfsr5kD-e8" frameborder="0" allowfullscreen></iframe>
+
+</div>
+</body>
+</html>

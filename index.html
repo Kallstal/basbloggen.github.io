@@ -1,0 +1,63 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Bas-Bloggen - Startsida</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="forst">
+     <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Bas-Bloggen</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Bas Tabs</a></li>
+                    <li><a href="menyval2.html">Artister</a></li>
+                    <li><a href="menyval3.html">Om mig</a></li>
+                </ul>
+            </div>
+<div class="parallax" id="bild1">
+    <div class="caption">
+    <span class="border"> Vad är det roligaste och coolaste instrumentet, som nästan  ingen spelar men alla behöver?
+
+<br> Svaret är bas!
+<br> Välkommen till bas-bloggen för alla bas älskare som vill kolla  upp artister, hitta några roliga tabs eller bara anmält gillar  musik och bas.</span>
+</div>
+</div>
+<div class="scroll-box">
+    <p id="parall">
+        When the bass drops,
+        <br> So do my problems
+        <br> So does my heart
+
+    </p>
+<div class="parallax" id="bild2"></div>
+</body>
+</html>

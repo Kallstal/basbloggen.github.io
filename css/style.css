@@ -1,0 +1,229 @@
+h1 {
+	color: white;
+	text-align: center;
+    font-size: 500%;
+    font-family: 'Bowlby One SC', cursive;
+}
+h2 {
+	color:black;
+}
+
+p {
+	font-size:12pt ;
+}
+body {
+	background-color:#551616; 
+}
+.basbast {
+	text-align: right;
+}
+.content {
+    background-color: white;
+    border: 25px white;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.navbar-inverse {
+    background-color:#b68282;
+    padding-top: 20px;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-family: 'helvetica', cursive;
+    letter-spacing: 2px;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+
+#test{
+    width: 500px;
+    background: #b68282;
+    float: center;
+    border-radius: 25px;
+    position: absolute;
+        top: 225px;
+        left: 750px;
+        color: black;
+    }
+
+#Snallafunka
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+#jag{
+    width: 1000px;
+    background: #cdabab;
+    float: center;
+    overflow: auto;
+    font-size: 125%;
+    margin: auto;
+}
+#jagbild{
+    float: left;
+    width: 30%;
+    border-radius: 25px;
+}
+.artikel {
+    font-family: 'Lato', cursive !important;
+    line-height: 150%;
+    list-style-type: circle;
+}
+#ESBild {font-family: 'Play', sans-serif;
+    float: right;
+    width: 50%;
+    border-radius: 25px;
+}
+#ESEtt{
+    border-radius: 25px;
+     width: 1000px;
+    background: #cdabab;
+    float: left;
+        top: 0;
+        color: black;
+}
+.ATitel {
+    font-family: 'Play', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+pre {
+    text-align: left;
+    border-radius: 25px;
+    background: white;
+    border-color: white;
+
+}
+#VadGorJag {
+    border-radius: 25px;
+    
+    background: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    /*position: absolute;
+        top: 1200px;
+        left: 450px;*/
+        color: black;
+    }
+#BasTvaVa {
+    width: auto;
+    background-color: #cdabab;
+    font-family: 'Josefin Sans', sans-se
+    rif;
+}
+#ArtisterVadGorJag {
+    border-radius: 25px;
+
+    background-color: #b68282;
+    
+    border-radius: 25px;
+        /*top: 1200px;
+        left: 0px;*/
+        color: black;
+    }
+#ArtisterSenaste {
+     width: 200px;
+    background-color: #b68282;
+    float: left;
+    border-radius: 25px;
+        top: 0;
+        left: 0px;
+        color: black;
+}
+#forst {
+    background-color: #cdabab;
+}
+#VadGorJag2 {
+    border-radius: 25px;
+     
+    background: white;
+    border-radius: 25px;
+    /*position: absolute;
+        top: 2300px;
+        left: 0px;
+        color: black;*/
+    }
+    .parallax {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bild1{
+    background-image: url("../bilder/orange.jpeg");
+}
+
+#bild2{
+    background-image: url("../bilder/band.jpeg");
+}
+.scroll-box{
+  height:100px;
+  width: auto;
+  background-color: #b68282;
+  display: block;
+}
+
+#parall{
+  color:white;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+}
+.caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    opacity: 0.9;
+}
+
+.caption span.border {
+    background-color: darkgrey;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    line-height: 70px;
+    letter-spacing: 10px;
+}
+#KommentarerBak {
+   color:white;
+  font-size: 20px;
+  font-family: times;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+  margin-top: 50px;
+}
+.kommanterafarg {
+    color:#cdabab; 
+}
+#MMBild {font-family: 'Play', sans-serif;
+    float: right;
+    width: 50%;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+#MM{
+    border-radius: 25px;
+     width: 1000px;
+    background: #cdabab;
+    float: left;
+        top: 0;
+        color: black;
+    margin-top: 30px;
+}
